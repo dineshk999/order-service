@@ -11,8 +11,8 @@ import lombok.ToString;
 @ToString
 public class Order {
 
-    private int id;
-    private String name;
-    private int quantity;
-    private long price;
+    private String city;
+    private String firstName;
+    private String lastName;
+    private String email;
 }
