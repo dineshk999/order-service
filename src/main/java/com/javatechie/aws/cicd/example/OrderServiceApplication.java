@@ -21,6 +21,7 @@ public class OrderServiceApplication {
 
     @GetMapping
     public List<Order> fetchOrders() {
+        System.out.println("Printing List of orders: " + orderDao.getOrders().toString());
         return orderDao.getOrders().stream().collect(Collectors.toList());
     }
 
