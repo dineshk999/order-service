@@ -35,6 +35,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>order-service.jar</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
@@ -49,7 +50,6 @@
 				</configuration>
 			</plugin>
 		</plugins>
-		<finalName>order-service</finalName>
 	</build>
 
 </project>
