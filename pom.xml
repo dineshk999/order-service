@@ -35,7 +35,6 @@
 	</dependencies>
 
 	<build>
-		<finalName>springboot-docker-jenkins</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
@@ -50,6 +49,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>springboot-docker-jenkins</finalName>
 	</build>
 
 </project>
