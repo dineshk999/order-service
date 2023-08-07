@@ -35,7 +35,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>order-service</finalName>
+		<finalName>springboot-docker-jenkins</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
